@@ -1,4 +1,4 @@
-### 👋 About Me
+# 👋 About Me
 
 Hi there! I'm Douglas Machado, a Control and Intelligent Systems Engineer passionate about Generative Artificial Intelligence and its applications in Industry 4.0 solutions. Originally from Porto Alegre, Brazil, I currently pursue PhD opportunities in this field, leveraging my background in Control and Automation Engineering from UFSC and Grenoble INP, Ense3.
 
@@ -10,10 +10,8 @@ Fluent in Portuguese, French, and English, I perform effectively in multicultura
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/douglas-machado/) to explore potential collaborations or simply chat about all things AI and engineering!
 
-Useful links:
-# [CV and About Me](https://douglasmmachado.github.io/resume/)
-[Scholar profile](https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl)
-[Orcid](https://orcid.org/0000-0002-3975-9191)
-[Lattes](http://lattes.cnpq.br/0164890616773460)
-  <p>Scholar profile: <a href="https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl=fr">Google Scholar</a> | Lattes profile: <a href="http://lattes.cnpq.br/0164890616773460">Lattes</a> | Orcid: <a href="https://orcid.org/0000-0002-3975-9191">ORCID</a></p>
-                </div>
+# Useful links:
+## [About me, CV and Publications](https://douglasmmachado.github.io/resume/)
+## [Scholar profile](https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl)
+## [Orcid](https://orcid.org/0000-0002-3975-9191)
+## [Lattes](http://lattes.cnpq.br/0164890616773460)
