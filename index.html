@@ -6,47 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Douglas Mateus Machado - Resume</title>
     <style>
-        /* Existing CSS styles */
-        /* Added a new class for the center alignment */
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #79BFE9;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #79BFE9;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #about-me {
+            background-color: #79BFE9;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #about-me h3 {
+            color: white;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <div class="center">
-            <img src="./docs/figures/photo.jpeg" alt="Douglas Mateus Machado" style="width: 150px; height: auto; border-radius: 50%; margin-right: 20px;">
-            <div>
-                <h1>Douglas Mateus Machado</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#english-cv">English CV</a></li>
-                        <li><a href="#french-cv">French CV</a></li>
-                        <li><a href="#publications">Publications</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <img src="./docs/figures/photo.png" alt="Douglas Mateus Machado" style="width: 150px; height: auto; border-radius: 50%;">
+        <h1>Douglas Mateus Machado</h1>
+        <nav>
+            <ul>
+                <li><a href="#english-cv">English CV</a></li>
+                <li><a href="#french-cv">French CV</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section id="about-me">
-        <!-- Your about me section content remains unchanged -->
+<section id="about-me">
+        <h3>About Me</h3>
+        <p>Hi there! I'm Douglas Machado, a Control and Intelligent Systems Engineer passionate about Generative Artificial Intelligence and its applications in Industry 4.0 solutions. Originally from Porto Alegre, Brazil, I currently pursue PhD opportunities in this field, leveraging my background in Control and Automation Engineering from UFSC and Grenoble INP, Ense3.</p>
+        <p>With a solid foundation in collaborative robotics, IIoT & IoT, and product development, I thrive in environments where innovation meets real-world challenges. My hands-on experience as a Mechatronics Technician at SENAI Ney Damasceno Ferreira School and research at G-SCOP Laboratory and UFSC Robotics Laboratory have honed my skills in machine learning techniques and industrial automation.</p>
+        <p>Passionate about research, I've contributed to projects at UFSC Department of Automation and Systems and the Research Laboratory in Refrigeration and Thermophysics (POLO). My technical toolkit includes proficiency in C, Python, Pytorch, and SOLIDWORKS, among others, enabling me to tackle diverse projects with precision and creativity.</p>
+        <p>Fluent in Portuguese, French, and English, I perform effectively in multicultural settings and enjoy collaborating with teams worldwide to achieve meaningful results. Whether it's designing smart maintenance strategies or delving into the depths of Generative AI, I'm always eager to push the boundaries of what's possible.</p>
+        <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/douglas-machado/">LinkedIn</a> to explore potential collaborations or simply chat about all things AI and engineering!</p>
+        <p>Scholar profile: <a href="https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl=fr">Google Scholar</a></p>
+        <p>Lattes profile: <a href="http://lattes.cnpq.br/0164890616773460">Lattes</a></p>
+        <p>Orcid: <a href="https://orcid.org/0000-0002-3975-9191">ORCID</a></p>
     </section>
 
     <section id="english-cv">
-        <!-- Your English CV section content remains unchanged -->
+        <h2>English CV</h2>
+        <embed src="./docs/pdf/CV_DOUGLAS_EN.pdf" type="application/pdf" width="100%" height="600px" />
     </section>
 
     <section id="french-cv">
-        <!-- Your French CV section content remains unchanged -->
+        <h2>French CV</h2>
+        <embed src="./docs/pdf/CV_MACHADO_FR.pdf" type="application/pdf" width="100%" height="600px" />
     </section>
 
     <section id="publications">
-        <!-- Your Publications section content remains unchanged -->
+        <h2>Publications</h2>
+        <ul>
+            <li><strong>Experimental Evaluation on the effect of magnetite in aerogel form on the dielectric breakdown strength and thermal conductivity of a synthetic isolating oil</strong> | November 2022 | <a href="https://www.researchgate.net/publication/365312707_Experimental_Evaluation_on_the_effect_of_magnetite_in_aerogel_form_on_the_dielectric_breakdown_strength_and_thermal_conductivity_of_a_synthetic_isolating_oil">10.26678/ABCM.ENCIT2022.CIT22-0724</a></li>
+            <!-- Publication details -->
+            <li><strong>A novel cooling geometry for subsea variable speed drives</strong> | December 2020 | <a href="https://doi.org/10.1016/j.applthermaleng.2020.116483">https://doi.org/10.1016/j.applthermaleng.2020.116483</a></li>
+            <!-- Publication details -->
+            <li><strong>Effect of Oleic Acid Weight Fraction on stability of hBN Based Nanofluids</strong> | November 2020 | <a href="https://www.researchgate.net/publication/346448666_Effect_of_Oleic_Acid_Weight_Fraction_on_stability_of_hBN_Based_Nanofluids">10.26678/ABCM.ENCIT2020.CIT20-0049</a></li>
+            <!-- Publication details -->
+            <li><strong>FINITE VOLUME METHOD APPLIED TO A NEW GEOMETRY FOR SUBSEA FREQUENCY INVERTER ENCLOSURES</strong> | October 2019 | <a href="https://www.researchgate.net/publication/337750327_FINITE_VOLUME_METHOD_APPLIED_TO_A_NEW_GEOMETRY_FOR_SUBSEA_FREQUENCY_INVERTER_ENCLOSURES">10.26678/ABCM.COBEM2019.COB2019-0692</a></li>
+            <!-- Publication details -->
+        </ul>
     </section>
 </body>
 
