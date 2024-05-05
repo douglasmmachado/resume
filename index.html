@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Douglas Mateus Machado - Resume</title>
-    
-</head>
     <style>
+        /* CSS styles here */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,7 +14,7 @@
             background-color: #f2f2f2; /* Fundo da página em tom cinza claro */
             color: #333;
         }
-    
+
         header {
             background-color: #79BFE9; /* Cor do Header em tom azul */
             padding: 20px;
@@ -23,18 +22,18 @@
             color: white;
             margin-bottom: 20px; /* Added margin to separate from content */
         }
-    
+
         nav ul {
             list-style-type: none;
             padding: 0;
             text-align: center; /* Centralizar links do menu de navegação */
         }
-    
+
         nav ul li {
             display: inline;
             margin-right: 20px;
         }
-    
+
         nav ul li a {
             text-decoration: none;
             color: white;
@@ -43,7 +42,7 @@
             background-color: #007bff; /* Cor de fundo para os links das sessões */
             padding: 10px 20px; /* Espaçamento interno dos links das sessões */
         }
-    
+
         section {
             padding: 20px;
             margin-bottom: 40px;
@@ -51,66 +50,97 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-    
+
         h2 {
             color: #79BFE9;
         }
-    
+
         p {
             line-height: 1.6;
             margin-bottom: 15px; /* Added margin for better paragraph separation */
         }
-    
+
         ul {
             padding-left: 20px;
         }
-    
+
         ul li {
             margin-bottom: 10px;
         }
-    
+
         a {
             color: #007bff;
             text-decoration: none;
         }
-    
+
         a:hover {
             text-decoration: underline;
         }
-    
+
         #about-me {
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px; /* Added margin to separate from other sections */
         }
-    
+
         #about-me h3 {
             color: #333; /* Cor do texto do título da seção */
         }
-    
+
         .about-content {
             max-width: 800px;
             margin: 0 auto;
         }
-    
+
         .about-header {
             text-align: center;
             margin-bottom: 20px;
         }
-    
+
         .about-header h2 {
             color: #79BFE9;
         }
-    
+
         .about-text {
             line-height: 1.6;
         }
-    
+
         .profile-links {
             margin-top: 10px;
         }
+
+        .publication-list {
+            margin-top: 20px;
+        }
+
+        .publication {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .publication h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+
+        .publication p {
+            margin: 5px 0;
+        }
+
+        .publication a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .publication a:hover {
+            text-decoration: underline;
+        }
     </style>
+</head>
+
 <body>
     <header>
         <img src="./docs/figures/photo.jpeg" alt="Douglas Mateus Machado" style="width: 150px; height: auto; border-radius: 50%;">
@@ -157,17 +187,34 @@
 
     <section id="publications">
         <h2>Publications</h2>
-        <ul>
-            <li><strong>Experimental Evaluation on the effect of magnetite in aerogel form on the dielectric breakdown strength and thermal conductivity of a synthetic isolating oil</strong> | November 2022 | <a href="https://www.researchgate.net/publication/365312707_Experimental_Evaluation_on_the_effect_of_magnetite_in_aerogel_form_on_the_dielectric_breakdown_strength_and_thermal_conductivity_of_a_synthetic_isolating_oil">10.26678/ABCM.ENCIT2022.CIT22-0724</a></li>
+        <div class="publication-list">
+            <div class="publication">
+                <h3>Experimental Evaluation on the effect of magnetite in aerogel form on the dielectric breakdown strength and thermal conductivity of a synthetic isolating oil</h3>
+                <p><strong>Date:</strong> November 2022</p>
+                <p><strong>Link:</strong> <a href="https://www.researchgate.net/publication/365312707_Experimental_Evaluation_on_the_effect_of_magnetite_in_aerogel_form_on_the_dielectric_breakdown_strength_and_thermal_conductivity_of_a_synthetic_isolating_oil">10.26678/ABCM.ENCIT2022.CIT22-0724</a></p>
+            </div>
             <!-- Publication details -->
-            <li><strong>A novel cooling geometry for subsea variable speed drives</strong> | December 2020 | <a href="https://doi.org/10.1016/j.applthermaleng.2020.116483">https://doi.org/10.1016/j.applthermaleng.2020.116483</a></li>
+            <div class="publication">
+                <h3>A novel cooling geometry for subsea variable speed drives</h3>
+                <p><strong>Date:</strong> December 2020</p>
+                <p><strong>Link:</strong> <a href="https://doi.org/10.1016/j.applthermaleng.2020.116483">https://doi.org/10.1016/j.applthermaleng.2020.116483</a></p>
+            </div>
             <!-- Publication details -->
-            <li><strong>Effect of Oleic Acid Weight Fraction on stability of hBN Based Nanofluids</strong> | November 2020 | <a href="https://www.researchgate.net/publication/346448666_Effect_of_Oleic_Acid_Weight_Fraction_on_stability_of_hBN_Based_Nanofluids">10.26678/ABCM.ENCIT2020.CIT20-0049</a></li>
+            <div class="publication">
+                <h3>Effect of Oleic Acid Weight Fraction on stability of hBN Based Nanofluids</h3>
+                <p><strong>Date:</strong> November 2020</p>
+                <p><strong>Link:</strong> <a href="https://www.researchgate.net/publication/346448666_Effect_of_Oleic_Acid_Weight_Fraction_on_stability_of_hBN_Based_Nanofluids">10.26678/ABCM.ENCIT2020.CIT20-0049</a></p>
+            </div>
             <!-- Publication details -->
-            <li><strong>FINITE VOLUME METHOD APPLIED TO A NEW GEOMETRY FOR SUBSEA FREQUENCY INVERTER ENCLOSURES</strong> | October 2019 | <a href="https://www.researchgate.net/publication/337750327_FINITE_VOLUME_METHOD_APPLIED_TO_A_NEW_GEOMETRY_FOR_SUBSEA_FREQUENCY_INVERTER_ENCLOSURES">10.26678/ABCM.COBEM2019.COB2019-0692</a></li>
+            <div class="publication">
+                <h3>FINITE VOLUME METHOD APPLIED TO A NEW GEOMETRY FOR SUBSEA FREQUENCY INVERTER ENCLOSURES</h3>
+                <p><strong>Date:</strong> October 2019</p>
+                <p><strong>Link:</strong> <a href="https://www.researchgate.net/publication/337750327_FINITE_VOLUME_METHOD_APPLIED_TO_A_NEW_GEOMETRY_FOR_SUBSEA_FREQUENCY_INVERTER_ENCLOSURES">10.26678/ABCM.COBEM2019.COB2019-0692</a></p>
+            </div>
             <!-- Publication details -->
-        </ul>
+        </div>
     </section>
+
 </body>
 
 </html>
