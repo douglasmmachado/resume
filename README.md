@@ -12,6 +12,7 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/douglas-m
 
 # Useful links:
 ## [About me, CV and Publications](https://douglasmmachado.github.io/resume/)
+## [GitHub](https://github.com/douglasmmachado)
 ## [Scholar profile](https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl)
 ## [Orcid](https://orcid.org/0000-0002-3975-9191)
 ## [Lattes](http://lattes.cnpq.br/0164890616773460)
