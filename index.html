@@ -92,22 +92,39 @@
             max-width: 800px;
             margin: 0 auto;
         }
-
+        
         .about-header {
             text-align: center;
             margin-bottom: 20px;
         }
-
+        
         .about-header h2 {
             color: #79BFE9;
         }
-
+        
         .about-text {
             line-height: 1.6;
         }
-
+        
+        .about-text p {
+            margin-bottom: 20px; /* Added margin between paragraphs for better readability */
+        }
+        
         .profile-links {
-            margin-top: 10px;
+            margin-top: 20px; /* Increased margin-top for better separation */
+        }
+        
+        .profile-links p {
+            margin: 0; /* Resetting margin to remove extra space */
+        }
+        
+        .profile-links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .profile-links a:hover {
+            text-decoration: underline;
         }
 
         .publication-list {
@@ -154,6 +171,7 @@
             </ul>
         </nav>
     </header>
+    
     <section id="about-me">
         <div class="about-content">
             <div class="about-header">
@@ -165,7 +183,9 @@
                 <p>Passionate about research, I've contributed to projects at UFSC Department of Automation and Systems and the Research Laboratory in Refrigeration and Thermophysics (POLO). My technical toolkit includes proficiency in C, Python, Pytorch, and SOLIDWORKS, among others, enabling me to tackle diverse projects with precision and creativity.</p>
                 <p>Fluent in Portuguese, French, and English, I perform effectively in multicultural settings and enjoy collaborating with teams worldwide to achieve meaningful results. Whether it's designing smart maintenance strategies or delving into the depths of Generative AI, I'm always eager to push the boundaries of what's possible.</p>
                 <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/douglas-machado/">LinkedIn</a> to explore potential collaborations or simply chat about all things AI and engineering!</p>
-                <p class="profile-links">Scholar profile: <a href="https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl=fr">Google Scholar</a> | Lattes profile: <a href="http://lattes.cnpq.br/0164890616773460">Lattes</a> | Orcid: <a href="https://orcid.org/0000-0002-3975-9191">ORCID</a></p>
+                <div class="profile-links">
+                    <p>Scholar profile: <a href="https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl=fr">Google Scholar</a> | Lattes profile: <a href="http://lattes.cnpq.br/0164890616773460">Lattes</a> | Orcid: <a href="https://orcid.org/0000-0002-3975-9191">ORCID</a></p>
+                </div>
             </div>
         </div>
     </section>
