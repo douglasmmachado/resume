@@ -29,11 +29,14 @@
             text-align: center; /* Centralizar links do menu de navegação */
         }
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
+        /* CSS styles for mobile devices */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block; /* Change to block to prevent inline layout */
+                margin-right: 0; /* Remove right margin */
+                margin-bottom: 10px; /* Add bottom margin for spacing */
+            }
         }
-
         nav ul li a {
             text-decoration: none;
             color: white;
