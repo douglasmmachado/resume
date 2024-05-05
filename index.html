@@ -5,6 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Douglas Mateus Machado - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #79BFE9;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #79BFE9;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #about-me {
+            background-color: #79BFE9;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #about-me h3 {
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +93,20 @@
                 <li><a href="#publications">Publications</a></li>
             </ul>
         </nav>
-        
+    </header>
+
+    <section id="about-me">
+        <h3>About Me</h3>
+        <p>Hi there! I'm Douglas Machado, a Control and Intelligent Systems Engineer passionate about Generative Artificial Intelligence and its applications in Industry 4.0 solutions. Originally from Porto Alegre, Brazil, I currently pursue PhD opportunities in this field, leveraging my background in Control and Automation Engineering from UFSC and Grenoble INP, Ense3.</p>
+        <p>With a solid foundation in collaborative robotics, IIoT & IoT, and product development, I thrive in environments where innovation meets real-world challenges. My hands-on experience as a Mechatronics Technician at SENAI Ney Damasceno Ferreira School and research at G-SCOP Laboratory and UFSC Robotics Laboratory have honed my skills in machine learning techniques and industrial automation.</p>
+        <p>Passionate about research, I've contributed to projects at UFSC Department of Automation and Systems and the Research Laboratory in Refrigeration and Thermophysics (POLO). My technical toolkit includes proficiency in C, Python, Pytorch, and SOLIDWORKS, among others, enabling me to tackle diverse projects with precision and creativity.</p>
+        <p>Fluent in Portuguese, French, and English, I perform effectively in multicultural settings and enjoy collaborating with teams worldwide to achieve meaningful results. Whether it's designing smart maintenance strategies or delving into the depths of Generative AI, I'm always eager to push the boundaries of what's possible.</p>
+        <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/douglas-machado/">LinkedIn</a> to explore potential collaborations or simply chat about all things AI and engineering!</p>
+        <p>Scholar profile: <a href="https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl=fr">Google Scholar</a></p>
+        <p>Lattes profile: <a href="http://lattes.cnpq.br/0164890616773460">Lattes</a></p>
+        <p>Orcid: <a href="https://orcid.org/0000-0002-3975-9191">ORCID</a></p>
+    </section>
+
     <section id="english-cv">
         <h2>English CV</h2>
         <embed src="./docs/pdf/CV_DOUGLAS_EN.pdf" type="application/pdf" width="100%" height="600px" />
@@ -32,16 +121,13 @@
         <h2>Publications</h2>
         <ul>
             <li><strong>Experimental Evaluation on the effect of magnetite in aerogel form on the dielectric breakdown strength and thermal conductivity of a synthetic isolating oil</strong> | Novembre 2022 | <a href="https://doi.org/10.26678/ABCM.ENCIT2022.CIT22-0724">10.26678/ABCM.ENCIT2022.CIT22-0724</a></li>
-            <p>Nowadays, the recent trend of miniaturizing power electronics systems led to higher power dissipation per unit area, demanding an enhancement of thermal properties of isolating oils. This study proposes to improve the thermal conductivity (while having admissible dielectric breakdown strength) of widely used commercial synthetic oil, by adding magnetite in aerogel form. Mass fractions of nanoparticles and aerogel of 0.01% and 0.05% were investigated experimentally, and the results were compared with those of the base fluid. A FOX 50 Thermal Conductitivty Meter was used to assess thermal conductivity and a HMRDT-100 dielectric breakdown testing equipment measured the reakdown voltage through the short-time method with controlled fluid temperature. The results indicated an increase of thermal conductivity and electric breakdown strength in the majority of the test samples when compared to the isolating oil. An increase of 22% of the electric breakdown strength and 1.5% of the thermal conductivity was observed for the 0.05 wt% F e3O4 aerogel sample. Therefore, the addition of F e3O4 aerogel to commercial synthetic isolating oil is a promising alternative to nanoparticles to enhance thermal conductivity and electric breakdown strength, due to their smaller particle size and consequently larger surface area which lead to better dispersion stability.Yet, higher mass fractions of magnetite aerogel in isolating oil must be investigated and other thermal properties should be assessed in order to establish it as a novel coolant for electronics.</p>
-
+            <!-- Publication details -->
             <li><strong>A novel cooling geometry for subsea variable speed drives</strong> | Décembre 2020 | <a href="https://doi.org/10.1016/j.applthermaleng.2020.116483">https://doi.org/10.1016/j.applthermaleng.2020.116483</a></li>
-            <p>Experimental and theoretical analyses are conducted to evaluate the passive cooling performance of a novel geometry for subsea variable speed drives, a common piece of equipment in deep-sea oil exploration. Relying on the sea water as a low-temperature thermal reservoir, the new design forms an enclosed, annular space with centrally located modular boards that compose the power electronics inverter. Buoyancy-induced motion of a dielectric coolant conveys the heat dissipated by the electronic boards to the sea water through the outer and innermost walls of the annular enclosure. A thermal network model is implemented and used to optimize the enclosure geometry through a genetic algorithm, which served as a reference for a scaled experimental setup. A Computational Fluid Dynamics (CFD) simulation of the conjugate heat transfer yielded temperature distributions on the electronic boards and temperature and fluid velocity fields inside the enclosure. A comparison between the experimental data and the modeling results indicated a good agreement, with average RMS deviations of a modified Nusselt number of 7.0% and 8.5% for the thermal network and CFD analysis, respectively. For a 140-W operating point dissipation rate in the scaled test setup, the thermal network and the CFD models presented maximal deviations of 4°C and 2.3°C with respect to the heat sink temperature measurements.</p>
-
+            <!-- Publication details -->
             <li><strong>Effect of Oleic Acid Weight Fraction on stability of hBN Based Nanofluids</strong> | Novembre 2020 | <a href="https://doi.org/10.26678/ABCM.ENCIT2020.CIT20-0049">10.26678/ABCM.ENCIT2020.CIT20-0049</a></li>
-            <p>Recently, a great variety of efforts has been made to enhance dielectric fluid properties through the dispersion of nanoparticles. However, the base fluid can only sustain a finite amount of nanoparticles, which is often insufficient to achieve the desired thermal and electrical properties. Therefore, this study intends to evaluate the weight fraction of oleic acid in hexagonal Boron Nitride (hBN) based nano-oil, which improves and optimizes the dispersion of the nanoparticles and their stability over time. Samples with weight fractions between 0.1 and 5.0 % of hBN were considered for seven different oleic acid fractions: 5.0, 7.5, 10.0, 12.5, 15.0, 17.5 and 20.0%, totaling 42 samples. Homogenization of the suspension was performed using a high intensity ultrasonic processor together with a thermostatic bath for temperature control. In order to evaluate the dispersion, each sample had its absorbance measured by a spectrophotometer, and reported for different time frames: 0, 30 and 60 days after dispersion. Moreover, photographic records were taken in order to qualitatively evaluate the dispersion and stability of each sample. The absorbance results presented an optimal value of dispersant weight fraction for almost all concentrations of hBN. Besides, an optimal weight fraction of 12.5% of oleic acid was determined for the 2.0 wt% hBN samples, resulting in a stable and well-dispersed nanofluid, after a period of 60 days. Consequently, the use of oleic acid appears to be a promising option to increase hBN nanoparticle concentration and stability in dielectric oils.</p>
-
+            <!-- Publication details -->
             <li><strong>FINITE VOLUME METHOD APPLIED TO A NEW GEOMETRY FOR SUBSEA FREQUENCY INVERTER ENCLOSURES</strong> | Octobre 2019 | <a href="https://doi.org/10.26678/ABCM.COBEM2019.COB2019-0692">10.26678/ABCM.COBEM2019.COB2019-0692</a></li>
-            <p>Frequency inverters are being used in a new type of depth sea installation: subsea electrical grids. One major challenge in such location is to maintain the temperature of electronic components below specified limits. The thermal management of such devices is performed throughout the use of different types of thermal models, according to the literature: analytical, numerical or thermal network model. The present work proposes the use of a finite volume method, with the support of a thermal network model (representing the entire cooling system of the subsea frequency inverter), to accurately predict the temperature distribution in the vicinity of the electronic components of the inverter circuit. An experimental apparatus was designed and built using a genetic algorithm to determine the dimensions of the system for maximum performance. External water temperatures from 10 to 25 ºC were considered, and total power dissipated from 200 to 600 W. The experimental results presented temperatures in the vicinity of the electronic components below the theoretical limits, for all test points. A maximum deviation of 7,2 ºC was obtained when comparing the numerical with the experimental data, for the measuring points close to the electronic components.</p>
+            <!-- Publication details -->
         </ul>
     </section>
 </body>
