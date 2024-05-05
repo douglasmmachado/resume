@@ -9,3 +9,11 @@ Passionate about research, I've contributed to projects at UFSC Department of Au
 Fluent in Portuguese, French, and English, I perform effectively in multicultural settings and enjoy collaborating with teams worldwide to achieve meaningful results. Whether it's designing smart maintenance strategies or delving into the depths of Generative AI, I'm always eager to push the boundaries of what's possible.
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/douglas-machado/) to explore potential collaborations or simply chat about all things AI and engineering!
+
+Useful links:
+# [CV and About Me](https://douglasmmachado.github.io/resume/)
+[Scholar profile](https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl)
+[Orcid](https://orcid.org/0000-0002-3975-9191)
+[Lattes](http://lattes.cnpq.br/0164890616773460)
+  <p>Scholar profile: <a href="https://scholar.google.com/citations?user=E4uw-dsAAAAJ&hl=fr">Google Scholar</a> | Lattes profile: <a href="http://lattes.cnpq.br/0164890616773460">Lattes</a> | Orcid: <a href="https://orcid.org/0000-0002-3975-9191">ORCID</a></p>
+                </div>
