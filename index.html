@@ -22,21 +22,12 @@
             color: white;
             margin-bottom: 20px; /* Added margin to separate from content */
         }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center; /* Centralizar links do menu de navegação */
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
         }
 
-        /* CSS styles for mobile devices */
-        @media (max-width: 600px) {
-            nav ul li {
-                display: block; /* Change to block to prevent inline layout */
-                margin-right: 0; /* Remove right margin */
-                margin-bottom: 10px; /* Add bottom margin for spacing */
-            }
-        }
         nav ul li a {
             text-decoration: none;
             color: white;
@@ -46,6 +37,13 @@
             padding: 10px 20px; /* Espaçamento interno dos links das sessões */
         }
 
+        @media screen and (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+        
         section {
             padding: 20px;
             margin-bottom: 40px;
