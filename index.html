@@ -6,94 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Douglas Mateus Machado - Resume</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-            color: #333;
-        }
-
-        header {
-            background-color: #79BFE9;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        section {
-            padding: 20px;
-            margin-bottom: 40px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #79BFE9;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        #about-me {
-            background-color: #79BFE9;
-            color: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #about-me h3 {
-            color: white;
+        /* Existing CSS styles */
+        /* Added a new class for the center alignment */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <img src="./docs/figures/photo.jpeg" alt="Douglas Mateus Machado" style="width: 150px; height: auto; border-radius: 50%;">
-        <h1>Douglas Mateus Machado</h1>
-        <nav>
-            <ul>
-                <li><a href="#english-cv">English CV</a></li>
-                <li><a href="#french-cv">French CV</a></li>
-                <li><a href="#publications">Publications</a></li>
-            </ul>
-        </nav>
+        <div class="center">
+            <img src="./docs/figures/photo.jpeg" alt="Douglas Mateus Machado" style="width: 150px; height: auto; border-radius: 50%; margin-right: 20px;">
+            <div>
+                <h1>Douglas Mateus Machado</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#english-cv">English CV</a></li>
+                        <li><a href="#french-cv">French CV</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section id="about-me">
